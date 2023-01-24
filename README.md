@@ -16,4 +16,4 @@ HTML, CSS, JavaScript, PHP 언어 및 DB와 Server를 활용하여 구현한 Web
 | Github | https://github.com/seopit95/Travel_Air_PHP_Project |
 
 | 개 발 기 간 |
-2023-01-12 ~ 2023-01-16
+| 2023-01-12 ~ 2023-01-16 |
