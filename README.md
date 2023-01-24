@@ -13,5 +13,5 @@ HTML, CSS, JavaScript, PHP 언어 및 DB와 Server를 활용하여 구현한 Web
 | DBMS | MySQL Workbench 8.0 |
 | Server | Apache 2.4.54 |
 | Editor | Visual Studio Code 1.74.2 |
-| 개발기간 | 2023-01-12 ~ 2023-01-16 |
+| develop period | 2023-01-12 ~ 2023-01-16 |
 | Github | https://github.com/seopit95/Travel_Air_PHP_Project |
