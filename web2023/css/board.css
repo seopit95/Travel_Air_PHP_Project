@@ -1,0 +1,187 @@
+/* board_form */
+.board_container{
+  display: flex;
+  margin-top: 50px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.board_box p{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 3px;
+}
+.board_menu p{
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 3px;
+  font-size: 25px;
+}
+.board_menu{
+  min-width: 250px;
+  height: 650px;
+  border: 3px solid var(--border-color);
+  border-radius: 30px;
+  margin-left: 20vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.board_menu ul{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.board_menu ul a:hover{
+  color: dodgerblue;
+}
+
+/* board_box */
+.board_box{
+  display: flex;
+  min-width: 50%;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  border: 10px solid var(--border-color);
+  border-radius: 30px;
+  padding: 50px;
+}
+.board_box h3{
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.board_box form ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 0;
+}
+.board_box form ul li{
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+.board_box form ul li .col1{
+  font-size: 20px;
+}
+.board_box form ul .col2{
+  margin-left: 30px;
+  width: 500px;
+  height: 25px;
+  font-size: 15px;
+}
+.board_box form textarea{
+  margin-left: 30px;
+  width: 80%;
+  height: 300px;
+}
+.upfile{
+  margin-left: 30px;
+  cursor:pointer
+}
+.buttons{
+  text-align: right;
+  margin-top: 30px;
+}
+.buttons input{
+  margin-left: 5px;
+  cursor:pointer;
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+  background-color: white;
+  color: var(--font-color);
+  padding: 5px 10px;
+}
+.buttons input:hover{
+  color: white;
+  background-color: var(--font-color);
+  transition: all 0.5s;
+}
+
+/* board_list */
+.board_list{
+  display: flex;
+  min-width: 60vw;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 70px;
+  /* border: 3px solid var(--border-color); */
+  border-radius: 30px;
+  padding: 15px;
+  text-align: center;
+}
+.board_list h3{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+table{
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid rgb(185, 185, 255);
+  border-collapse: collapse;
+}
+table th{
+  border-top: 1px solid rgb(185, 185, 255);
+  padding: 22px;
+}
+table td{
+  border-top: 1px solid rgb(185, 185, 255);
+  border-bottom: 1px solid rgb(185, 185, 255);
+  padding: 13px;
+  font-size: 20px;
+}
+table th:nth-child(2){
+  width: 700px;
+}
+.buttons button{
+  border: 1px solid var(--font-color);
+  border-radius: 20px;
+  background-color: white;
+  color: var(--font-color);
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.buttons button:hover{
+  background-color: var(--font-color);
+  color: white;
+}
+
+/* board_view */
+.view_board{
+  min-width: 100%;
+}
+.view_board h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.view_board li{
+  margin: 0;
+  margin-top: 10px;
+}
+.view_subtitle{
+  display: flex;
+  font-size: 20px;
+}
+#content{
+  width: 50vw;;
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+  padding-top: 15px;
+  font-size: 20px;
+  margin: 0;
+}

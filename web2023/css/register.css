@@ -1,0 +1,227 @@
+:root{
+  --font-color: rgb(28, 55, 145);
+  --border-color: rgb(166, 218, 253);
+  --hover-color: rgb(36, 112, 219);;
+}
+body{
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  background-image: url("../image/airplane.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.move_home{
+  position: absolute;
+  top: 25vh;
+  left: 80px;
+  animation: guide 2s ease-out normal;
+  font-family: 'Noto Serif', serif;
+}
+@keyframes guide{
+  0%{
+    top: -20vh;
+    opacity: 0%;
+  }
+  50%{
+    opacity: 50%;
+  }
+  100%{
+    top: 25vh;
+    opacity: 100%;
+  }
+}
+.move_home p{
+  font-size: 70px;
+  color: white;
+}
+.move_home a{
+  font-size: 50px;
+  border: 4px solid white;
+  border-radius: 40px;
+  color: white;
+  padding: 20px 30px;
+  transition: all 0.5s;
+}
+.move_home a:hover{
+  background-color: white;
+  color: var(--font-color);
+  font-weight: 500;
+}
+a{
+  text-decoration-line: none;
+  color: rgb(28, 55, 145);
+}
+#error{
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+section{
+  border-left: 5px solid var(--font-color);
+  border-top: 5px solid var(--font-color);
+  border-bottom: 5px solid var(--font-color);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 450px;
+  height: 700px;
+  position: absolute;
+  background-color: white;
+  top: 15vh;
+  right: 0;
+  padding-right: 40px;
+  opacity: 95%;
+  animation: register 1.5s ease-in-out normal;
+}
+
+@keyframes register{
+  0%{
+    padding-right: 0px;
+    opacity: 0%;
+  }
+  20%{
+    padding-right: 10px;
+    opacity: 0%;
+  }
+  80%{
+    padding-right: 60px;
+    opacity: 50%;
+  }
+  100%{
+    padding-right: 40px;
+    opacity: 95%;
+  }
+}
+
+input{
+  border-radius: 5px;
+  border-style: hidden;
+  border-bottom: 1px solid var(--font-color);
+}
+.register_box{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.register_box h2{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.register_box .form_id{
+  display: flex;
+  font-size: 15px;
+  margin-bottom: 30px;
+  align-items: baseline;
+}
+
+.register_box .form{
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 30px;
+  align-items: baseline;
+}
+
+.register_box .col1{
+  width: 120px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.register_box .col2{
+  width: 100px;
+  height: 30px;
+  display: flex;
+}
+
+.register_box .col3 input{
+  width: 90px;
+  height: 30px;
+  margin-left: 80px;
+  border-radius: 5px;
+  border: 3px solid var(--font-color);
+  border-radius: 25px;
+  background-color: white;
+  color: var(--font-color);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.register_box .col3 input:hover{
+  background-color: var(--font-color);
+  color: white;
+}
+
+.register_box .col2_phone{
+  display: flex;
+}
+
+.register_box #phone1{
+  width: 50px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.register_box #phone{
+  width: 50px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.register_box .buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.register_box #email{
+  width: 120px;
+  height: 25px;
+  margin-right: 5px;
+}
+.register_box select{
+  margin-left: 5px;
+}
+
+.register_box .buttons input{
+  width: 150px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color: white;
+  color: var(--font-color);
+  border: 3px solid var(--font-color);
+  border-radius: 25px;
+  border-style: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.register_box .buttons input:hover{
+  background-color: var(--font-color);
+  color: white;
+}
+
+.register_box .buttons a{
+  width: 100%;
+  transition: all 0.5s;
+  font-size: 23px;
+}
+.register_box .buttons a:hover{
+  color: var(--hover-color);
+  font-weight: bold;
+  font-size: 25px;
+}

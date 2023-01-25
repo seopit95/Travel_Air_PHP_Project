@@ -1,0 +1,177 @@
+:root{
+  --font-color: rgb(28, 55, 145);
+  --border-color: rgb(166, 218, 253);
+  --hover-color: rgb(36, 112, 219);;
+}
+body{
+  position: relative;
+  min-width: auto;
+  margin: 0;
+  background-image: url("../image/airplane.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.move_home{
+  position: absolute;
+  top: 25vh;
+  left: 80px;
+  animation: guide 2s ease-out normal;
+  font-family: 'Noto Serif', serif;
+}
+@keyframes guide{
+  0%{
+    top: -20vh;
+    opacity: 0%;
+  }
+  50%{
+    opacity: 50%;
+  }
+  100%{
+    top: 25vh;
+    opacity: 100%;
+  }
+}
+.move_home p{
+  font-size: 70px;
+  color: white;
+}
+.move_home a{
+  font-size: 50px;
+  border: 4px solid white;
+  border-radius: 40px;
+  color: white;
+  padding: 20px 30px;
+  transition: all 0.5s;
+  font-weight: 700;
+}
+.move_home a:hover{
+  background-color: white;
+  color: var(--font-color);
+  font-weight: 700;
+}
+a{
+  text-decoration-line: none;
+  color: var(--font-color);
+}
+#error{
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+section{
+  border-left: 5px solid var(--font-color);
+  border-top: 5px solid var(--font-color);
+  border-bottom: 5px solid var(--font-color);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 450px;
+  height: 650px;
+  position: absolute;
+  background-color: white;
+  top: 15vh;
+  right: 0;
+  padding-right: 40px;
+  opacity: 95%;
+  animation: login 1.5s ease-in-out normal;
+}
+
+@keyframes login{
+  0%{
+    padding-right: 0px;
+    opacity: 0%;
+  }
+  20%{
+    padding-right: 10px;
+    opacity: 0%;
+  }
+  80%{
+    padding-right: 60px;
+    opacity: 50%;
+  }
+  100%{
+    padding-right: 40px;
+    opacity: 95%;
+  }
+}
+
+input{
+  border-radius: 5px;
+  border-style: none;
+  border-bottom: 2px solid var(--font-color);
+}
+.login_box{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.login_box h2{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.login_box .form{
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 50px;
+  align-items: baseline;
+}
+
+.login_box .col1{
+  width: 140px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.login_box .col2 input{
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  display: flex;
+}
+
+.login_box .buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.login_box .buttons input{
+  width: 150px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: white;
+  color: var(--font-color);
+  border: 3px solid var(--font-color);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.login_box .buttons input:hover{
+  background-color: var(--font-color);
+  color: white;
+}
+
+.login_box .buttons a{
+  width: 100%;
+  transition: all 0.5s;
+  font-size: 25px;
+}
+.login_box .buttons a:hover{
+  color: var(--hover-color);
+  font-weight: bold;
+  font-size: 27px;
+}

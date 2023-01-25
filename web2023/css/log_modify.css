@@ -1,0 +1,85 @@
+.update_content{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  font-family: 'Jua', sans-serif;
+}
+.update_box{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 580px;
+  border: 6px solid var(--font-color);
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+.update_box h2{
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.form_id{
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form_id .col2 input{
+  border-style: none;
+}
+.form{
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.col1{
+  font-size: 20px;
+  width: 200px;
+  text-align: left;
+}
+.col2 input{
+  font-size: 20px;
+  height: 25px;
+  border: 2px solid var(--font-color);
+  border-radius: 10px;
+}
+.col2_phone input{
+  width: 60px;
+  height: 25px;
+  font-size: 20px;
+  border: 2px solid var(--font-color);
+  border-radius: 10px;
+  text-align: center;
+}
+.col2_email input{
+  width: 150px;
+  height: 25px;
+  font-size: 20px;
+  border: 2px solid var(--font-color);
+  border-radius: 10px;
+}
+.col2_email select{
+  width: 150px;
+  height: 35px;
+  font-size: 20px;
+  border: 2px solid var(--font-color);
+  border-radius: 10px;
+}
+.buttons input{
+  font-size: 25px;
+  margin-top: 5px;
+  border: 3px solid var(--font-color);
+  border-radius: 20px;
+  background-color: white;
+  color: var(--font-color);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.buttons input:hover{
+  background-color: var(--font-color);
+  color: white;
+  transition: all 0.3s;
+}

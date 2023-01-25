@@ -1,0 +1,41 @@
+.ticket_list{
+  border-top: 1px sold var(--font-color);
+  border-bottom: 1px sold var(--font-color);
+  text-align: center;
+  min-width: 100px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.ticket_list h3{
+  font-size: 40px;
+  font-weight: 200;
+  color: var(--font-color);
+}
+.ticket_list table{
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 100;
+}
+.ticket_list table th{
+  padding: 10px;
+  border-bottom: 3px solid var(--font-color);
+}
+.ticket_list table td{
+  padding: 40px;
+}
+
+
+.ticket_list table th:nth-child(1){
+  width: 25%;
+}
+.ticket_list table th:nth-child(2){
+  width: 15%;
+}
+.ticket_list table th:nth-child(3){
+  width: 30%;
+}
+.ticket_list table th:nth-child(4){
+  width: 10%;
+}
+.ticket_list table th:nth-child(5){
+  width: 10%;
+}
