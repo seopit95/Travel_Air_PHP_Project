@@ -20,7 +20,7 @@ HTML, CSS, JavaScript, PHP 언어 및 DB와 Server를 활용하여 구현한 Web
 ## 웹 사이트 Video (Youtube)
 
 (회원 모드)
-https://youtu.be/ZK2DKZdhwCI/mqdefault.jpg
+https://img.youtube.com/vi/ZK2DKZdhwCI/mqdefault.jpg
 
 (관리자 모드)
 https://youtu.be/f4zq6Q4LnG4/mqdefault.jpg
